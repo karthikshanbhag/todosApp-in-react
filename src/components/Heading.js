@@ -1,7 +1,7 @@
-// const  Heading = () => {
-//     return ( 
-//         <h1>todo list in react</h1>
-//      );
-// }
+const  Heading = () => {
+    return ( 
+        <h1>todo list in react</h1>
+     );
+}
  
-// export default Heading;
+export default Heading;

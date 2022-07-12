@@ -1,5 +1,4 @@
-const  List= (props) => {
-console.log(props)
+const  List= ({todos}) => {
     return ( 
         <ol>
             {
@@ -7,7 +6,8 @@ console.log(props)
         todos.length===0?"No todos yet": todos.map((todo,i) => {
             return <li key={i}>{todo}</li>
 
-            }
+            })
+        }
         </ol>
      );
 }
