@@ -3,7 +3,7 @@ const Item = ({setTodos,todo,key}) => {
         setTodos(prevtodos=>prevtodos.filter(item=>item!==todo))
     }
     return ( 
-        <li> key={key} >{todo} &nbsp; <button onClick={()=>handleDelete(todo)}>remove</button></li>
+        <li key={key} >{todo} &nbsp; <button onClick={()=>handleDelete(todo)}>remove</button></li>
      );
 }
  
