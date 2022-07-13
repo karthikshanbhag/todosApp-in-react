@@ -6,5 +6,5 @@ const Item = ({todo,key,setTodos}) => {
         <li key={key} >{todo} &nbsp; <button onClick={()=>handleDelete(todo)}>remove</button></li>
      );
 }
- 
+ adasdasdasdasd
 export default Item;
