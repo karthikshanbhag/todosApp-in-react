@@ -6,7 +6,7 @@ import { useState ,useEffect} from "react";
 const App = () => {
   // let count=0;
   // let [todos,setTodos] =useState([])
-  cons t [Count,setCount] = useState(0)
+  const [Count,setCount] = useState(0)
   const [value,setValue] = useState('')
 
   useEffect(()=>{
